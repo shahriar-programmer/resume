@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahriar Ahmed Shovon - Resume</title>
+    <meta
+      name="description"
+      content="As a full-stack web developer, I have extensive experience in both backend and frontend development. I specialize in building robust web applications using NodeJS, Express, and MongoDB on the backend, as well as leveraging HTML5, CSS3, Javascript, Tailwind, React, Next, and other cutting-edge frontend technologies."
+    />
+    <!-- <link rel="stylesheet" href="tailwind.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex items-center justify-center w-full h-screen text-center lg:hidden">Not Avialble on Smaller Device.</div>
+    <div
+      class="fixed top-0 left-0 right-0 z-10 justify-center hidden mx-auto sticky-bar lg:flex"
+    >
+      <p
+        class="text-xs text-white bg-[rgba(0,173,130,1)] px-2 py-1 rounded-b-md"
+      >
+        <span class="font-bold">Updated: </span>April 11, 2023
+      </p>
+    </div>
+    <div
+      onclick="saveDiv('resume', 'Resume of Shahriar Ahmed Shovon')"
+      class="transition sticky-div fixed right-0 top-1/2 px-4 py-2 rounded bg-[rgba(78,204,172,0.7)] hidden lg:flex items-center gap-x-2 cursor-pointer hover:bg-[rgba(78,204,172,0.9)]"
+    >
+      <svg
+        width="30px"
+        height="30px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.5 3H12H8C6.34315 3 5 4.34315 5 6V18C5 19.6569 6.34315 21 8 21H12M13.5 3L19 8.625M13.5 3V7.625C13.5 8.17728 13.9477 8.625 14.5 8.625H19M19 8.625V11.8125"
+          stroke="#000000"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M17.5 15V21M17.5 21L15 18.5M17.5 21L20 18.5"
+          stroke="#000000"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <p>Download PDF</p>
+    </div>
+    <div
+      id="resume"
+      class="hidden lg:flex flex-col gap-y-6 mx-auto max-w-4xl px-12 w-full py-[4%] text-center font-[400]"
+    >
+      <div class="bar w-full h-0.5 bg-[#d2e2de]"></div>
+      <header class="flex flex-col gap-y-1">
+        <h1 class="text-4xl font-extrabold text-gray-600 uppercase title">
+          Shahriar Ahmed Shovon
+        </h1>
+        <div class="flex items-center justify-center contact-details gap-x-2">
+          <p>Kushtia, Bangladesh</p>
+          <p>|</p>
+          <p>+880-1780-974765</p>
+          <p>|</p>
+          <p class="font-bold">shovonshahriar01@gmail.com</p>
+        </div>
+        <div class="flex items-center justify-center links gap-x-2">
+          <a class="text-blue-700 underline" href="#">Github</a>
+          <p>|</p>
+          <a class="text-blue-700 underline" href="#">Portfolio</a>
+        </div>
+      </header>
+      <section class="flex flex-col resume-section gap-y-6">
+        <div class="relative flex items-center justify-center">
+          <div
+            class="w-64 py-0.5 rounded-sm text-xl tracking-wider uppercase text-gray-600 font-bold bg-[#d2e2de]"
+          >
+            Core Skills
+          </div>
+          <div class="absolute -z-10 bar w-full h-0.5 bg-[#d2e2de]"></div>
+        </div>
+        <div class="text-left skills">
+          <div class="flex text-lg gap-x-2">
+            <p class="w-24 font-bold">Languages:</p>
+            <p class="flex gap-x-3">
+              <span>Javascript,</span>
+              <span>Typescript,</span>
+              <span>Python.</span>
+            </p>
+          </div>
+          <div class="flex text-lg gap-x-2">
+            <p class="w-24 font-bold">Frontend:</p>
+            <p class="flex gap-x-3">
+              <span>React,</span>
+              <span>Next.js,</span>
+              <span>Redux,</span>
+              <span>Zustand,</span>
+              <span>HTML5,</span>
+              <span>CSS3,</span>
+              <span>SASS/CSS,</span>
+              <span>Tailwindcss.</span>
+            </p>
+          </div>
+          <div class="flex text-lg gap-x-2">
+            <p class="w-24 font-bold">Backend:</p>
+            <p class="flex gap-x-3">
+              <span>Node.js,</span>
+              <span>Express.js,</span>
+              <span>Socket.IO,</span>
+              <span>MongoDB,</span>
+              <span>PostgreSQL.</span>
+            </p>
+          </div>
+          <div class="flex text-lg gap-x-2">
+            <p class="w-24 font-bold">Testing:</p>
+            <p class="flex gap-x-3">
+              <span>React Testing Library,</span>
+              <span>Jest,</span>
+              <span>Supertest.</span>
+            </p>
+          </div>
+          <div class="flex text-lg gap-x-2">
+            <p class="w-24 font-bold">Tools:</p>
+            <p class="flex gap-x-3">
+              <span>Git,</span>
+              <span>Npm,</span>
+              <span>Yarn,</span>
+              <span>Vite,</span>
+              <span>Webpack,</span>
+              <span>Linux,</span>
+              <span>Wordpress.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-col resume-section gap-y-6">
+        <div class="relative flex items-center justify-center">
+          <div
+            class="w-64 py-0.5 rounded-sm text-xl tracking-wider uppercase text-gray-600 font-bold bg-[#d2e2de]"
+          >
+            Projects
+          </div>
+          <div class="absolute -z-10 bar w-full h-0.5 bg-[#d2e2de]"></div>
+        </div>
+        <div class="flex flex-col ml-8 text-left project gap-y-2">
+          <div class="flex items-center justify-between -ml-8 project-title">
+            <h3 class="text-xl font-bold text-gray-600">
+              Interactive W9 Form Filing and TIN Checking SaaS Website
+              <span class="text-base font-normal">( Full stack )</span>
+            </h3>
+            <div class="flex items-center gap-x-2">
+              <!-- <a class="text-blue-700 underline" href="#">Github</a> -->
+              <!-- <p>|</p> -->
+              <a class="text-blue-700 underline" href="https://www.formw9.com/"
+                >Live</a
+              >
+            </div>
+          </div>
+          <p>
+            This platform allows users to conveniently file and sign their W9
+            form in an interactive manner. Also offers a TIN checking service to
+            ensure the accuracy of TIN number. The subscription model of payment
+            ensures that users can access the service on an ongoing basis.
+          </p>
+          <div>
+            <h4 class="font-bold text-gray-600">Features</h4>
+            <ul class="pl-10 list-disc">
+              <li>User Authentication ( Sign Up, Login, Password Reset )</li>
+              <li>Interactive w9form filing</li>
+              <li>Built in e-signature</li>
+              <li>
+                TIN checking service ( Also save result for future access )
+              </li>
+              <li>Built in email delivery</li>
+              <li>User Profile ( Custody to keep w9Form saved )</li>
+              <li>Subscription model of payment ( Stripe, Paypal )</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-gray-600">Tools</h4>
+            <ul class="pl-10 list-disc">
+              <li>
+                Next.JS, TailwindCSS, React-pdf, Paypal, Stripe, Firebase,
+                Zustand
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="bar-sm mx-auto w-52 h-0.5 bg-[#d2e2de]"></div>
+        <div class="flex flex-col ml-8 text-left project gap-y-2">
+          <div class="flex items-center justify-between -ml-8 project-title">
+            <h3 class="text-xl font-bold text-gray-600">
+              Multiplayer Object Finding Game
+              <span class="text-base font-normal">( Full stack )</span>
+            </h3>
+            <div class="flex items-center gap-x-2">
+              <a
+                class="text-blue-700 underline"
+                href="https://github.com/shahriar-programmer/hidden-object"
+                >Github</a
+              >
+              <p>|</p>
+              <a
+                class="text-blue-700 underline"
+                href="https://hidden-react.netlify.app/"
+                >Live</a
+              >
+            </div>
+          </div>
+          <p>This is a web-based singlePlayer + multiplayer game.</p>
+          <div>
+            <h4 class="font-bold text-gray-600">Features</h4>
+            <ul class="pl-10 list-disc">
+              <li>User Sign Up, Login</li>
+              <li>
+                User Profile ( Game History, Last 10 Match Graph, Update Profile
+                )
+              </li>
+              <li>Leaderboard ( Dynamic data from database )</li>
+              <li>SinglePlayer Game</li>
+              <li>
+                Multiplayer Game ( Host game, join game and play with friends )
+              </li>
+              <li>Online Game.</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-gray-600">Tools</h4>
+            <ul class="pl-10 list-disc">
+              <li>React, NodeJs, Socket.io, Charts, Firebase, Zustand</li>
+            </ul>
+          </div>
+        </div>
+        <div class="bar-sm mx-auto w-52 h-0.5 bg-[#d2e2de]"></div>
+        <div class="flex flex-col ml-8 text-left project gap-y-2">
+          <div class="flex items-center justify-between -ml-8 project-title">
+            <h3 class="text-xl font-bold text-gray-600">
+              Online Course Website
+              <span class="text-base font-normal">( Full stack )</span>
+            </h3>
+            <div class="flex items-center gap-x-2">
+              <a
+                class="text-blue-700 underline"
+                href="https://github.com/shahriar-programmer/umc-lms"
+                >Github</a
+              >
+              <p>|</p>
+              <a
+                class="text-blue-700 underline"
+                href="https://umc2frontend.netlify.app/"
+                >Live</a
+              >
+            </div>
+          </div>
+          <p>
+            A complete full-stack course management system. This is a very
+            similar website to Udemy / Coursera.
+          </p>
+          <div>
+            <h4 class="font-bold text-gray-600">Features</h4>
+            <ul class="pl-10 list-disc">
+              <li>Register, Login, Email Verify, Forgot Password etc</li>
+              <li>
+                Profile, Dashboard ( Admin Dashboard and User Dashboard are
+                separate and different )
+              </li>
+              <li>
+                Add, Update, Delete Course + Course Module + Course Content +
+                Additional Documents
+              </li>
+              <li>Enroll Course, Watch course content, read course material</li>
+              <li>Payment, Order management</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-gray-600">Tools</h4>
+            <ul class="pl-10 list-disc">
+              <li>NodeJs, Express, React, MongoDB, Redux, Nodemailer</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="flex flex-col resume-section gap-y-6">
+        <div class="relative flex items-center justify-center">
+          <div
+            class="w-64 py-0.5 rounded-sm text-xl tracking-wider uppercase text-gray-600 font-bold bg-[#d2e2de]"
+          >
+            Education
+          </div>
+          <div class="absolute -z-10 bar w-full h-0.5 bg-[#d2e2de]"></div>
+        </div>
+        <div class="flex flex-col text-left educations-all gap-y-3">
+          <div class="flex flex-col education gap-y-1">
+            <h4 class="text-xl font-bold text-gray-600 year-type">
+              2020-2022 | High School
+            </h4>
+            <p class="font-medium degree-institue">
+              HSC | Nimtala College, Bangladesh
+            </p>
+            <p>GPA 5.00 Out Of 5.00</p>
+          </div>
+          <!-- <div class="bar-sm mx-auto w-52 h-0.5 bg-[#d2e2de]"></div>
+          <div class="flex flex-col education gap-y-1">
+            <h4 class="text-xl font-bold text-gray-600 year-type">2020-2022 | High School</h4>
+            <p class="font-medium degree-institue">HSC | Nimtala College, Bangladesh</p>
+            <p>GPA 5.00 Out Of 5.00</p>
+          </div> -->
+        </div>
+      </section>
+      <div class="bar w-full h-0.5 bg-[#d2e2de]"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
